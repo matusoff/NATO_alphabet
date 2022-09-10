@@ -1,6 +1,6 @@
 import pandas
 #create dict from the csv file
-data = pandas.read_csv(r'PROJECTS\100days_of_code\NATO_alphabet\NATO_phonetic_alphabet.csv')
+data = pandas.read_csv(r'file path \NATO_phonetic_alphabet.csv')
 
 phonetic_alphabet = {row.letter : row.code for (index, row) in data.iterrows()}   
 
